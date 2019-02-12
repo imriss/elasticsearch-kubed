@@ -21,6 +21,11 @@ data_node_configs = {
         'heap_size': '512m',
         'memory_limit': '1Gi'
     },
+    '1cpu X N': {
+        'storage_class': 'ssd',
+        'heap_size': '512m',
+        'memory_limit': '1Gi'
+    },
     '4cpu X N': {
         'storage_class': 'ssd',
         'heap_size': '4g',
